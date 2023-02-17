@@ -5,3 +5,6 @@ ingresar el tiempo de duracion de una llamada telefonica y determinar la cantida
 
 - toda llamada que dure 3 minutos o menos tiene un costo de $300
 - cada minuto adicional cuesta $50
+
+# Diagrama de flujo 
+![Diagrama de flujo](diagrama.png "Diagrama de flujo")
