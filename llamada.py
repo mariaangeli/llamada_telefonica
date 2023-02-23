@@ -8,12 +8,15 @@ print("------------COSTO DE LLAMADA--------------")
 print("------------------------------------------")
 
 # input 
-
+minutos = int(input("ingrese los minutos de la llamda: "))
 
 # processing 
 
+if minutos < 3:
+    costo = 300
+
+else:
+    costo = (minutos * 50) +300 -150
 
 # output 
-print("-------------------------------------------")
-print("---------------RESULTADOS------------------")
-print("-------------------------------------------")
+print(" el costo de la llamda es: " + str(costo))
